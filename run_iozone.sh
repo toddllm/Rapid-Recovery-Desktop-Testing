@@ -3,7 +3,7 @@ platform=linux-base
 to=linux-base
 num_trials=3
 results_dir='/home/deshantm/Rapid-Recovery-Desktop-Testing/results'
-max_file_size=1024
+max_file_size=8g
 iozone_dir=/home/deshantm/iozone3_347/src/current
 cd $iozone_dir
 

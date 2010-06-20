@@ -3,7 +3,8 @@
 #rename to iozone.sh???
 
 #deps
-sudo yum install gcc gnuplot
+#gcc is a real dep, gnuplot is only needed on display server
+#sudo yum install gcc gnuplot
 
 #comment during testing
 #wget http://www.iozone.org/src/current/iozone3_347.tar
@@ -11,7 +12,7 @@ sudo yum install gcc gnuplot
 tar xf iozone3_347.tar
 cd iozone3_347/src/current
 make linux-AMD64
-echo 'running iozone, this may take awhile'
-date >> $output_file
-./iozone -a -i 0 -i 1 >> $output_file
-date >> $output_file
+#echo 'running iozone, this may take awhile'
+#date >> $output_file
+#./iozone -a -i 0 -i 1 >> $output_file
+#date >> $output_file
