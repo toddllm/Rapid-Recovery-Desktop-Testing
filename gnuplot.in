@@ -1,0 +1,15 @@
+set title "Iozone performance"
+set grid lt 2 lw 1
+set surface
+set xtics
+set ytics
+set logscale x 2
+set logscale y 2
+set autoscale z
+set xrange [2.**5:2.**24]
+set xlabel "File size in 2^n KBytes"
+set ylabel "Record size in 2^n Kbytes"
+set zlabel "Kbytes/sec"
+set data style lines
+set dgrid3d 80,80,3
+
