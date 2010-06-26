@@ -1,0 +1,46 @@
+	Iozone: Performance Test of File I/O
+	        Version $Revision: 3.347 $
+		Compiled for 32 bit mode.
+		Build: Windows 
+
+	Contributors:William Norcott, Don Capps, Isom Crawford, Kirby Collins
+	             Al Slater, Scott Rhine, Mike Wisner, Ken Goss
+	             Steve Landherr, Brad Smith, Mark Kelly, Dr. Alain CYR,
+	             Randy Dunlap, Mark Montague, Dan Million, Gavin Brebner,
+	             Jean-Marc Zucconi, Jeff Blomberg, Benny Halevy, Dave Boone,
+	             Erik Habbinga, Kris Strecker, Walter Wong, Joshua Root,
+	             Fabrice Bacchella, Zhenghua Xue, Qin Li.
+
+	Run began: Mon Jun 21 21:44:53 2010
+
+	Auto Mode
+	Using minimum file size of 4194304 kilobytes.
+	Using maximum file size of 8388608 kilobytes.
+	Command line used: ./iozone -i0 -i1 -a -n 4g -g 8g
+	Output is in Kbytes/sec
+	Time Resolution = 0.000016 seconds.
+	Processor cache size set to 1024 Kbytes.
+	Processor cache line size set to 32 bytes.
+	File stride size set to 17 * record size.
+                                                            random  random    bkwd   record   stride                                   
+              KB  reclen   write rewrite    read    reread    read   write    read  rewrite     read   fwrite frewrite   fread  freread
+         4194304      64    5975    5610    47060    36337                                                                          
+         4194304     128    5442    5253    59065    60972                                                                          
+         4194304     256    5440    5436    57917    35830                                                                          
+         4194304     512    5983    5384    58018    38396                                                                          
+         4194304    1024    6451    6233    64070    39707                                                                          
+         4194304    2048    5698    5458    68911    71507                                                                          
+         4194304    4096    5866    6474    69384    72966                                                                          
+         4194304    8192    1117    5509    26805    27004                                                                          
+         4194304   16384    6311    6114    57908    36809                                                                          
+         8388608      64    4803    4506    29417    36354                                                                          
+         8388608     128     751    4040    34430    43534                                                                          
+         8388608     256    4304    4223    35490    35863                                                                          
+         8388608     512    6164    5750    56725    59371                                                                          
+         8388608    1024    5893    5707    43936    45055                                                                          
+         8388608    2048    3623    4201    57024    58065                                                                          
+         8388608    4096    4138    4462    32015    38634                                                                          
+         8388608    8192    5152    5568    46306    45960                                                                          
+         8388608   16384    4460    4462    40968    42491                                                                          
+
+iozone test complete.
