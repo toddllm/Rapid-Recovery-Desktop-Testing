@@ -1,0 +1,2 @@
+sudo qemu-kvm -drive file=/home/deshantm/Desktop/ubuntu-32bit.qcow2,if=virtio,boot=on -m 1024  -net nic,macaddr=00:11:22:BB:22:22,model=virtio -net tap,script=/usr/local/etc/ovs-ifup,downscript=/usr/local/etc/ovs-ifdown -net nic,macaddr=00:22:11:BB:22:22,model=virtio -net tap,script=/usr/local/etc/ovs-ifup-br1,downscript=/usr/local/etc/ovs-ifdown-br1 -vga std -localtime -usbdevice tablet -soundhw all
+
