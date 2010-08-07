@@ -3,7 +3,7 @@
 usage="$0 <options>"
 
 platform=win7-base
-to=wind7-base
+to=win7-base
 num_trials=5
 results_dir='/home/COSIAdmin/Rapid-Recovery-Desktop-Testing/results/netpipe'
 netpipe_dir=/home/COSIAdmin/NetPIPE-3.7.1
