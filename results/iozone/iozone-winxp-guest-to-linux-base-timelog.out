@@ -1,0 +1,27 @@
+./run_iozone.sh: line 12: ./iozone: No such file or directory
+
+real	0m0.062s
+user	0m0.031s
+sys	0m0.046s
+./run_iozone.sh: line 12: ./iozone: No such file or directory
+
+real	0m0.078s
+user	0m0.015s
+sys	0m0.077s
+./run_iozone.sh: line 12: ./iozone: No such file or directory
+
+real	0m0.062s
+user	0m0.015s
+sys	0m0.062s
+
+real	2618m52.953s
+user	0m18.640s
+sys	47m36.546s
+
+real	2190m12.828s
+user	0m18.562s
+sys	46m59.468s
+
+real	2118m9.328s
+user	0m17.983s
+sys	46m59.671s
