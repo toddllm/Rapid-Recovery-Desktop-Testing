@@ -1,0 +1,10 @@
+#allow host to ssh anywhere
+dl_src=00:1A:A0:A9:F2:81,tcp,tp_dst=22,idle_timeout=0,actions=normal
+#allow ssh server(s) to respond to the host
+dl_dst=00:1A:A0:A9:F2:81,tcp,tp_src=22,idle_timeout=0,actions=normal
+
+#allow guest to ssh to a specific server only
+dl_src=00:11:22:bb:22:22,dl_dst=00:11:22:BB:22:33,tcp,tp_dst=22,idle_timeout=0,actions=normal
+#allow that specific server to respond to the guest
+dl_dst=00:11:22:bb:22:22,dl_src=00:11:22:BB:22:33,tcp,tp_src=22,idle_timeout=0,actions=normal
+

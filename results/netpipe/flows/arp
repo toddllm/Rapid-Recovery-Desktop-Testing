@@ -1,0 +1,7 @@
+#allow host to send and receive arp
+dl_src=00:1A:A0:A9:F2:81,arp,idle_timeout=0,actions=normal
+dl_dst=00:1A:A0:A9:F2:81,arp,idle_timeout=0,actions=normal
+
+#allow guest to send and receive arp
+dl_src=00:11:22:BB:22:22,arp,idle_timeout=0,actions=normal
+dl_dst=00:11:22:BB:22:22,arp,idle_timeout=0,actions=normal

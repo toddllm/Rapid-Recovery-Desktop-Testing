@@ -1,0 +1,5 @@
+#allow guest to send netpipe
+dl_src=00:11:22:bb:22:22,tcp,tp_src=5005,idle_timeout=0,actions=normal
+#allow guest to receive netpipe 
+dl_dst=00:11:22:bb:22:22,tcp,tp_dst=5005,idle_timeout=0,actions=normal
+
